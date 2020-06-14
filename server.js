@@ -36,12 +36,15 @@ app.post('/savetoleaderboard', (request, response) => {
         console.log('Form-Details', request.body)
     
         const client = new Client({
+            
+            connectionString: process.env.DATABASE_URL,
+            ssl: { rejectUnauthorized: false }
     
-            user: 'postgres',
-            host: 'localhost',
-            password: 'adetoyosi',
-            database: 'virtualquiz',
-            port: 5432,
+//             user: 'postgres',
+//             host: 'localhost',
+//             password: 'adetoyosi',
+//             database: 'virtualquiz',
+//             port: 5432,
     
         });
     
@@ -63,11 +66,13 @@ app.post('/savetoleaderboard', (request, response) => {
 app.get('/leaderboard', (request, response) => {
     const client = new Client({
 
-        user: 'postgres',
-        host: 'localhost',
-        password: 'adetoyosi',
-        database: 'virtualquiz',
-        port: 5432,
+//         user: 'postgres',
+//         host: 'localhost',
+//         password: 'adetoyosi',
+//         database: 'virtualquiz',
+//         port: 5432,
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false }
 
     });
 
