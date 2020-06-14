@@ -1,0 +1,102 @@
+{
+    "questions":[{
+        "question": "Which country won the first professional football world cup ?",
+        "choice1": "Argentina",
+        "choice2": "Germany",
+        "choice3": "Uruguay",
+        "choice4": "Netherlands",
+        "answer": 3
+    },
+    {
+        "question": "Before the introduction of plastic helmets, what were they made out of in the NFL?",
+        "choice1": "Latex",
+        "choice2": "Leather",
+        "choice3": "Steel",
+        "choice4": "Cardboard",
+        "answer": 2
+    },
+    {
+        "question": "In January of 2019, which NBA player broke Wilt Chamberlain's record of most consecutive games with a triple-double?",
+        "choice1": "Russell Westbrook",
+        "choice2": "Stephen Curry",
+        "choice3": "Kobe Bryant",
+        "choice4": "James Harden",
+        "answer": 1
+    },
+    {
+        "question": "Who defeated Rafael Nadal at the 2016 men's singles U.S. Open tournament?",
+        "choice1": "Tiger Woods",
+        "choice2": "Roger Federer",
+        "choice3": "Novak Djokovic",
+        "choice4": "Lucas Pouille",
+        "answer": 3
+    },
+    {
+        "question": "The ground on which the game of golf is played is known as ?",
+        "choice1": "Golf Land",
+        "choice2": "Green Land",
+        "choice3": "Golf Pit",
+        "choice4": "Golf course",
+        "answer": 4
+    },
+    {
+        "question": "Which player scored the fastest hat-trick in the Premier League ?",
+        "choice1": "Mohammed Salah",
+        "choice2": "Thierry Henry",
+        "choice3": "Sadio Mane",
+        "choice4": "Didier Drogba",
+        "answer": 3
+    },
+    {
+        "question": "Which of theses players did not share the Premier League Golden Boot in 2018-19 ?",
+        "choice1": "Sadio Mane",
+        "choice2": "Harry Kane",
+        "choice3": "Pierre-Emerick Aubameyang",
+        "choice4": "Mohammed Salah",
+        "answer": 2
+    },
+    {
+        "question": "Can you name the former Germany international who went on to become a professional wrestler in the WWE ?",
+        "choice1": "Phillip Wiese",
+        "choice2": "Tim Wiese",
+        "choice3": "Matt Wiese",
+        "choice4": "David Dunker",
+        "answer": 2
+    },
+    {
+        "question": "Messi famously retired from international duty in which year before reversing his decision ?",
+        "choice1": "2017",
+        "choice2": "2018",
+        "choice3": "2015",
+        "choice4": "2016",
+        "answer": 4
+    },
+    {
+        "question": "Which German multinational sportswear company is Messi an ambassador for ?",
+        "choice1": "Nike",
+        "choice2": "Adidas",
+        "choice3": "Jaguar",
+        "choice4": "Zara",
+        "answer": 2
+    },
+    {
+        "question": "Which player holds the record for most Champions League winners' medals ?",
+        "choice1": "Cristiano Ronaldo",
+        "choice2": "Raul",
+        "choice3": "Francesco Gento",
+        "choice4": "Sergio Ramos",
+        "answer": 3
+    },
+    {
+        "question": "In which year was the first European Championship held ?",
+        "choice1": "1964",
+        "choice2": "1963",
+        "choice3": "1962",
+        "choice4": "1960",
+        "answer": 4
+    }
+
+
+
+]
+}

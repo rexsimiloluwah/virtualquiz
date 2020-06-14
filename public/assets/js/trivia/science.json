@@ -1,0 +1,143 @@
+{  
+    "questions" : [
+            {
+                "question": "Grand Central Terminal, Park Avenue, New York is the world's ?",
+                "choice1": "largest railway station",
+                "choice2": "highest railway station",
+                "choice3": "longest railway station",
+                "choice4": "None of the Above",
+                "answer": 1
+            },
+            {
+                "question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of ?",
+                "choice1": "Asia",
+                "choice2": "Europe",
+                "choice3": "Africa",
+                "choice4": "Antartica",
+                "answer": 3
+            },
+            {
+                "question": "For which of the following disciplines is a Nobel Prize not awarded?",
+                "choice1": "Physics and Chemistry",
+                "choice2": "Physiology and Medicine",
+                "choice3": "Literature, Peace and Economics",
+                "choice4": "Computation Structures, and Power Electronics",
+                "answer": 4
+            },
+            {
+                "question": "India's first Technicolor film ____ in the early 1950s was produced by ____",
+                "choice1": "'Jhansi Ki Rani', Sohrab Modi",
+                "choice2": "'Jhansi Ki Rani', Sir Syed Ahmed",
+                "choice3": "'Mirza Ghalib', Sohrab Modi",
+                "choice4": "'Mirza Ghalib', Munshi Premchand",
+                "answer": 1
+            },
+            {
+                "question": "In a normal human body, the total number of red blood cells is",
+                "choice1": "10 trillion",
+                "choice2": "15 trillion",
+                "choice3": "25 trillion",
+                "choice4": "30 trillion",
+                "answer": 4
+            },
+            {
+
+                "question":"What is the capital of Rwanda ?",
+                "choice1": "Kigali",
+                "choice2" :"Kampala",
+                "choice3": "Oshodi",
+                "choice4": "Freetown",
+                "answer": 1
+        
+            },
+        
+            {
+                "question": "The symbol Sb stands for stibnum or stibnite. What is the modern name of this element ?",
+                "choice1": "Arsenic",
+                "choice2": "Tin",
+                "choice3": "Antimony",
+                "choice4": "Chlorine",
+                "answer": 3
+        
+            },
+        
+            {
+                "question": "Entomology is a science that studies what ?",
+                "choice1" :" Behaviour of Rappers",
+                "choice2" : "Insects",
+                "choice3" : "The origin and history of technical and scientific terms",
+                "choice4" : "Milk does not h",
+                "answer": 2
+            },
+        
+            {
+                "question": "Hitler's party which came into power in 1993 is known as  ?",
+                "choice1": "Labour Party",
+                "choice2": "Nazi Party",
+                "choice3": "Ku-Kux-Klan",
+                "choice4": "Democratic Party",
+                "answer": 2
+            },
+        
+            {
+                "question": "Which Country won the 2010 World Cup ?",
+                "choice1" : "Kenya",
+                "choice2": "Germany",
+                "choice3" : "Spain",
+                "choice4": "Brazil",
+                "answer": 3
+        
+            },
+        
+            {
+                "question": "Which Club does Pierre-Emerick Aubameyang play for Currently ?",
+                "choice1" : "Dortmund FC",
+                "choice2": "Fulham ",
+                "choice3" : "Arsenal FC",
+                "choice4": "Real Madrid",
+                "answer": 3
+        
+            },
+            {
+                "question": "Each year, the World Red Cross and Red crescent day is celebrated on ?",
+                "choice1" : "May 8",
+                "choice2": "May 18",
+                "choice3" : "June 8",
+                "choice4": "June 18",
+                "answer": 1
+        
+            },
+        
+            {
+                "question": "Who is the Current CEO of Google ?",
+                "choice1" : "Larry Page",
+                "choice2": "Sundar Pichai",
+                "choice3" : "David Moyes",
+                "choice4": "Tim Cook",
+                "answer": 2
+        
+            },
+        
+            {
+                "question": "Which Iran general was currently killed which led to the World War Three Rant on twitter ?",
+                "choice1" : "Qasem Soleimani",
+                "choice2": "Hadassah Soleimani",
+                "choice3" : "Al Qassid Asgarah",
+                "choice4": "Gen. Olusegun Obasanjo",
+                "answer": 1
+        
+            },
+        
+            {
+                "question": "Who is the current president of United States of America ?",
+                "choice1" : "Ronald Reagan",
+                "choice2": "Donald Trump",
+                "choice3" : "Mike Pence",
+                "choice4": "Richardson Nixon",
+                "answer": 2
+        
+            }
+        ] 
+
+    }
+    

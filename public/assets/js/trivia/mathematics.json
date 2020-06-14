@@ -1,0 +1,95 @@
+{
+    "questions":[{
+        "question": "Which number is the Odd one out :- 84129,32418, 36119, 19614, 12512",
+        "choice1": "84129",
+        "choice2": "32418",
+        "choice3": "12512",
+        "choice4": "19614",
+        "answer": 3
+    },
+
+    {
+        "question": "Evaluate the expression 1 + 1 in base 2 ",
+        "choice1": "10",
+        "choice2": "11",
+        "choice3": "Two (2)",
+        "choice4": "01",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the name of the Greek letter/symbol used to symbolize summation in Mathematics",
+        "choice1": "Delta",
+        "choice2": "Omega",
+        "choice3": "Sigma",
+        "choice4": "Alpha",
+        "answer": 3
+    }
+    ,
+    {
+        "question": "To the nearest whole number, how many radians are in a whole circle ?",
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "3",
+        "choice4": "7",
+        "answer": 2
+    }
+    ,{
+        "question": "If 5 boys take 7 hours to pack 35 cartoons, then how many boys can pack 65 cartoons in 3 hours?",
+        "choice1": "65",
+        "choice2": "12",
+        "choice3": "56",
+        "choice4": "None of the Above",
+        "answer": 4
+    },
+    {
+        "question": "The average of first 50 natural numbers is ----------------------------- ?",
+        "choice1": "25.0",
+        "choice2": "25.5",
+        "choice3": "30.5",
+        "choice4": "26.0",
+        "answer": 1
+    },
+    {
+        "question": "Fill in the blank in this sequence :- 4, 6, 12, 14, 28, 30, (-----) ?",
+        "choice1": "35",
+        "choice2": "60",
+        "choice3": "36",
+        "choice4": "72",
+        "answer": 2
+    },
+    {
+        "question": "If each edge of a cube is increased by 50%, what is the corresponding increase in the surface area ?",
+        "choice1": "125%",
+        "choice2": "200%",
+        "choice3": "150%",
+        "choice4": "22.5%",
+        "answer": 1
+    },
+    {
+        "question": "The diagonals of a rhombus are 30cm and 40cm long, find the length of the side ?",
+        "choice1": "35cm",
+        "choice2": "30cm",
+        "choice3": "None of the Above",
+        "choice4": "25cm",
+        "answer": 4
+    },
+    {
+        "question": "All natural numbers and 0 are called the ------------------ numbers.",
+        "choice1": "Whole",
+        "choice2": "Rational",
+        "choice3": "Real",
+        "choice4": "Integer",
+        "answer": 1
+    },
+    {
+        "question": "The wages of 10 workers for a six-day week is $ 1200. What are the one day’s wages of 4 workers?",
+        "choice1": "$40",
+        "choice2": "$32",
+        "choice3": "$80",
+        "choice4": "$24",
+        "answer": 3
+    }
+
+]
+}

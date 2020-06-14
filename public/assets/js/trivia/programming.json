@@ -1,0 +1,126 @@
+{
+    "questions" : [{
+        "question": "Which of the following best describes an Algorithm",
+        "choice1": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+        "choice2": "Program statements that run to execute a task.",
+        "choice3": "A set of instructions written in a programming language to perform a task.",
+        "choice4": "Set of instructions decoded from a high-level programming code to perform the task.",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is not a programming language?",
+        "choice1": "Typescript",
+        "choice2": "Python",
+        "choice3": "Node.js",
+        "choice4": "Golang",
+        "answer": 3
+    },
+    {
+        "question": "Python is a --------- programming language",
+        "choice1": "Mid-level",
+        "choice2": "High-level",
+        "choice3": "Machine language",
+        "choice4": "None of the above",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is not a type of computer code related to Program Execution ?",
+        "choice1": "Source Code",
+        "choice2": "Byte Code",
+        "choice3": "Machine Code",
+        "choice4": "Hex Code", 
+        "answer": 4
+    },
+    {
+        "question": "Which popular data structure implements the LIFO (Last In First Out) principle ?",
+        "choice1": "Linked lists",
+        "choice2": "Stack",
+        "choice3": "Queue",
+        "choice4": "Traversed tree",
+        "answer": 2
+    },
+    {
+        "question": "What does a compiler do ?",
+        "choice1": "Translates computer code from machine level to byte code.",
+        "choice2": "Translates computer code from higher-level programming language to machine code.",
+        "choice3": "Translates computer code from lower-level programming language to higher-level programming language.",
+        "choice4": "Translates between compiled languages",
+        "answer": 2
+    },
+    {
+        "question": "What does HTML stand for ?",
+        "choice1": "Hyper Tuned Markup Language",
+        "choice2": "Hyper Trainer Marking Language",
+        "choice3": "Hyper Terse Markup Language",
+        "choice4": "Hyper Text Markup Language",
+        "answer": 4
+    },
+    {
+        "question": "Which of the following is not a Relational Database Management System",
+        "choice1": "MySQL",
+        "choice2": "PostgreSQL",
+        "choice3": "MongoDB",
+        "choice4": "SQLite3",
+        "answer": 3
+    },
+    {
+        "question": "Imagine writing a program that instructs a bird to fly, which instruction is likely to be iterated",
+        "choice1": "Alight",
+        "choice2": "Flap wings",
+        "choice3": "Soar",
+        "choice4": "Lift off",
+        "answer": 2
+    },
+    {
+        "question": "What is another name for an error in Programming ?",
+        "choice1": "Gitfly",
+        "choice2": "Botch",
+        "choice3": "Bug",
+        "choice4": "Byte", 
+        "answer": 3
+    },
+    {
+        "question": "Which programming paradigm involves classes and inheritance significantly ?",
+        "choice1": "Object-Oriented programming",
+        "choice2": "Functional programming",
+        "choice3": "Logical programming",
+        "choice4": "Imperative programming",
+        "answer": 1
+    },
+    {
+        "question": "Which data structure are push() and pop() functions found ?",
+        "choice1": "Stacks",
+        "choice2": "Queues",
+        "choice3": "Lists",
+        "choice4": "Trees",
+        "answer": 1
+    },
+    {
+        "question": "Minimum number of queues required for priority queue implementation?",
+        "choice1": "5",
+        "choice2": "4",
+        "choice3": "3",
+        "choice4": "2",
+        "answer": 4
+    },
+    {
+        "question": "The Time required to merge two sorted lists of size [m] and [n], is ---------",
+        "choice1": "O(m logn)",
+        "choice2": "O(m + n)",
+        "choice3": "O(m exp(n))",
+        "choice4": "O(n log(m))",
+        "answer": 2
+    },
+    {
+        "question": "The Index of arrays in C starts from which index number",
+        "choice1": "0 or 1",
+        "choice2": "1",
+        "choice3": "0",
+        "choice4": "It Depends",
+        "answer": 3
+    }
+
+
+
+]
+}
