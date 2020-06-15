@@ -1,8 +1,7 @@
 
 $(document).ready(() => {
     
-    const gameContainer = document.querySelector(".container");
-    const loader = document.querySelector(".loader");
+  
     const question = $(".question");
     const choices = $(".choice-text");
     const choicesArray = Array.from(choices);
@@ -174,8 +173,7 @@ $(document).ready(() => {
 
             }) 
         
-        gameContainer.classList.remove("hidden");
-        loader.classList.add("hidden");
+        
         startGame()
 
         }).catch( (err) => {
