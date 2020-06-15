@@ -59,7 +59,7 @@ $(document).ready(() => {
             break;
 
         case "computers":
-            file = "https://opentdb.com/api.php?amount=30&category=18&type=multiple";
+            file = "https://opentdb.com/api.php?amount=30&category=18&difficulty=easy&type=multiple";
             break;
 
         case "books":
@@ -123,15 +123,16 @@ $(document).ready(() => {
                     setInterval( () => {
     
                         if (timeLeft <= 0){
-                            window.location.assign("/end");
+                            window.location.assign("/final");
                             localStorage.setItem("mostRecentScore",score);
                         }
     
                         if (timeLeft < 5){
                             timeLeftText.parent().css("color","red");
                         }
-    
-                        timeLeftText.text(timeLeft);
+                        
+                        document.querySelector(".indicator").style.width =  `${(timeLeft/30) * 100}%`;
+                        // timeLeftText.text(timeLeft);
                         timeLeft -= 1;
                     },1000)
                 }
@@ -145,9 +146,28 @@ $(document).ready(() => {
                     getNewQuestion()
                     countDown()
 
-                    
-                    var myMusic = new sound("assets/coffinsong.mp3");
-                    myMusic.play()
+                    let volume = false;
+                    let myMusic = new sound("assets/coffinsong.mp3");
+                    function playMusic(){
+                        volume = true;
+                        myMusic.play();
+                    }
+                    function stopMusic(){
+                        myMusic.stop()
+                        volume = false;
+                    }
+                    document.querySelector(".fa-volume-up").addEventListener("click", (e)=> {
+                        if (!volume){
+                            playMusic()
+                            e.target.style.animation = "volume .5s ease-in-out infinite";
+                            // console.log(volume)
+                        }
+                        else{
+                            stopMusic()
+                            e.target.style.animation = "";
+                        }
+                        
+                    }, false)
                 }
     
                 console.log(availableQuestions.length)
@@ -189,6 +209,9 @@ $(document).ready(() => {
                         selectedChoice = e.target;
                         selectedAnswer = selectedChoice.dataset["number"];
                         console.log(selectedAnswer == currentQuestion.answer)
+
+                        var mySound = new sound("assets/mouseclick.mp3")
+                        mySound.play()
     
                         let isCorrect = "incorrect"
     
@@ -220,9 +243,12 @@ $(document).ready(() => {
                     }
     
                 }) 
-                
+            
+            document.querySelector(".indicator").classList.remove("hidden");
             gameContainer.classList.remove("hidden");
             loader.classList.add("hidden");
+            
+            
             startGame();
             
 

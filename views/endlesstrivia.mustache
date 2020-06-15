@@ -22,6 +22,7 @@
 </head>
 <body>
 
+    <div class="indicator hidden"></div>
     <div class="loader"><h2>Virtual Quiz</h2><br>
     <p>The Endless Trivia</p></div>
 
@@ -34,11 +35,14 @@
                     <h1 class="questionCounter" id="questionCounter">1/5</h1>
                 </div>
 
+                <div class="question-counter">
+                    <span class="fa fa-volume-up fa-2x" style="color: #444;" id=""></span>
+                </div>
                 <div class="score-counter">
-                    <p>Score</p>
+                    <p>Current Score</p>
                     <h1 class="scoreCounter" id="scoreCounter">0</h1>
                 </div>
-            </div>
+            </div><hr style="border: 1px solid rgba(255,99,71,0.5);height: 0.1px;opacity:0.4;">
 
             <div class="main">
                 <h4 class="question"></h4>
@@ -76,7 +80,7 @@
             </div>
 
             <div>
-                <p>Time Elapsed :- <span class="timeLeft">30</span> seconds</p>
+                {{! <p>Time Elapsed :- <span class="timeLeft">30</span> seconds</p> }}
             </div>
             
         </div>

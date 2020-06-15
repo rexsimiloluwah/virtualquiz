@@ -1,7 +1,8 @@
 
 $(document).ready(() => {
-    
-  
+
+    const gameContainer = document.querySelector(".container");
+    const loader = document.querySelector(".loader");
     const question = $(".question");
     const choices = $(".choice-text");
     const choicesArray = Array.from(choices);
@@ -90,7 +91,8 @@ $(document).ready(() => {
                         timeLeftText.parent().css("color","red");
                     }
 
-                    timeLeftText.text(timeLeft);
+                    document.querySelector(".indicator").style.width =  `${(timeLeft/30) * 100}%`;
+                    // timeLeftText.text(timeLeft);
                     timeLeft -= 1;
                 },1000)
             }
@@ -172,8 +174,14 @@ $(document).ready(() => {
                 }
 
             }) 
-        
-        
+
+        setTimeout(() => {
+            loader.classList.add("hidden");
+        })
+        gameContainer.classList.remove("hidden");
+        loader.classList.add("hidden");
+           
+            
         startGame()
 
         }).catch( (err) => {
