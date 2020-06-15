@@ -10,33 +10,33 @@ html,body{
     color: white;
     font-family:  'DM Mono', monospace;
     background: url('../../images/hero-bg.png'), rgb(255,99,71);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    min-height: 100vh;
-    position: relative;
+    
 }
 
 .container{
-    width: 70%;
+    width: 40%;
     background-color: white;
-    margin: 30px auto;
+    /* margin: 30px auto; */
     color: tomato;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    position: relative;
+    /* min-height: 100vh; */
     
-
 }
 
 .header{
     font-size: 20px;
-    padding: 20px auto;
-    margin: 20px;
     color: tomato;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    padding: 10px;
 }
 
 .metrics{
@@ -53,6 +53,7 @@ html,body{
     float: right;
 } */
 .choices-container{
+    width: 100%;
     margin: 25px auto;
 }
 
@@ -106,7 +107,7 @@ html,body{
 
     .container{
         width: 95%;
-        margin: 30px auto;
+        margin: 50px auto;
     }
 
     .choice-prefix{
@@ -230,6 +231,21 @@ span .points{
     display: inline-block;
 
 }
+
+.indicator{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    left: 0;
+    display: inline-block;
+}
+
+.questionCounter, .scoreCounter{
+    text-align: center;
+}
  
 
 @keyframes spin{
@@ -238,6 +254,7 @@ span .points{
         rotate: 0deg;
         transform: scale(0);
     }
+    
 
     50%{
         transform: scale(1.2);
@@ -246,6 +263,17 @@ span .points{
     100%{
         opacity: 1;
         rotate: 180deg;
+        transform: scale(1);
+    }
+}
+
+@keyframes volume{
+    0%{
+        transform: scale(0);
+        opacity: 0.3;
+    }
+
+    100%{
         transform: scale(1);
     }
 }
