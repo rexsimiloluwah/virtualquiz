@@ -17,7 +17,6 @@
     <link rel="icon" href="../assets/images/x-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/trivia/quiz.css">
     <title>VirtualQuiz</title>
 
     <style>
@@ -29,11 +28,15 @@
     }
 
     body {
-    margin: 0;
-    background: -webkit-radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
-    background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+    
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:  'DM Mono', monospace;
+    background: url('../assets/images/hero-bg.png'), rgb(255,99,71);
+
     }
 
     
@@ -42,11 +45,12 @@
     Leaderboard
     --------------------*/
     .leaderboard {
-    position: absolute;
-    width: 500px;
+    
+    width: 50%;
     background: -webkit-linear-gradient(top, #287485, #181c26);
     background: linear-gradient(to bottom, #3a404d, #181c26);
     border-radius: 10px;
+    
     }
 
     @media (max-width: 1024px){
@@ -57,7 +61,7 @@
     .leaderboard p {
     font-size: 20px;
     color: #e1e1e1;
-    padding: 12px 13px 18px;
+    padding: 12px auto;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -73,17 +77,21 @@
     .leaderboard ol {
     counter-reset: leaderboard;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    
+    width: 100%;
+    margin: auto;
     }
 
     .leaderboard ol li{
         list-style: none;
         background: #fa6855;
         border: 1px solid rgba(0,0,0,0.2);
+        width: 100%;
+        margin-left: -20px;
         
     }
     .leaderboard ol li {
     position: relative;
+    width: 100%;
     z-index: 1;
     font-size: 14px;
     counter-increment: leaderboard;
@@ -192,6 +200,7 @@
 </style></head><body>
 
 <div class="leaderboard">
+<div>
   <p>
     <svg class="ico-cup">
       <use xlink:href="#cup"></use>
@@ -209,6 +218,7 @@
   {{/rows}}
     
   </ol>
+  </div>
 </div>
 
 
