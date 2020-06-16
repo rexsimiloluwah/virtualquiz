@@ -175,9 +175,7 @@ $(document).ready(() => {
 
             }) 
 
-        setTimeout(() => {
-            loader.classList.add("hidden");
-        })
+        
         gameContainer.classList.remove("hidden");
         loader.classList.add("hidden");
            
