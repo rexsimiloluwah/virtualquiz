@@ -589,3 +589,10 @@ h2.card-title{
   margin: 5px auto;
 }
 
+.disabled-link{
+  cursor: default;
+  pointer-events: none;        
+  text-decoration: none;
+  color: rgb(255, 99, 71);
+}
+
