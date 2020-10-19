@@ -4,10 +4,12 @@ const finalScoreText =  document.getElementById("final-score")
 const finalScoreTriviaText =  document.getElementById("final-score-trivia")
 const nicknameInput = document.getElementById("nickname")
 const percentScore = document.querySelector(".percentScore")
+const category = document.querySelector(".category")
 const scoreToLeaderBoard = document.getElementById("score")
 const iqLevel = document.getElementById("iq-level")
 const mostRecentScore = localStorage.getItem("mostRecentScore")
 const maxScoreAttainable = localStorage.getItem("maxScoreAttainable")
+const categoryName = localStorage.getItem("category")
 
 function sound(src) {
     this.sound = document.createElement("audio");
@@ -44,6 +46,11 @@ let calcScore = (mostRecentScore/maxScoreAttainable)*100;
 
 if (percentScore){
     percentScore.innerHTML = calcScore;
+}
+
+if(categoryName){
+    category.innerHTML = categoryName;
+
 }
 
 if (iqLevel){
