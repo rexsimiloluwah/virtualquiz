@@ -49,8 +49,12 @@ if (percentScore){
 }
 
 if(categoryName){
-    category.innerHTML = categoryName;
-
+    try{
+        category.innerHTML = categoryName;
+    }
+    catch(error){
+        console.error(error)
+    }
 }
 
 if (iqLevel){
@@ -71,7 +75,6 @@ if (iqLevel){
 
 if (nicknameInput){
     nicknameInput.addEventListener("keyup", () => {
-
         saveScoreBtn.disabled = !nicknameInput.value;
     })
 
@@ -83,7 +86,7 @@ if (scoreToLeaderBoard){
 
 
 // Redirect to previous page 
-playAgain = () => {
+const playAgain = () => {
     window.history.back();
 }
 
